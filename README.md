@@ -6,8 +6,11 @@ Este projeto foi um desafio criado pela bot list Zuraaa. @MysteryMS @Yummii @Gab
 - Clique no botão **LOGAR COM O DISCORD**, você será enviado para uma página de autenticação do discord. Apenas clique em Autorizar
 - Após logar, você será redirecionado para a página principal
 - Na página principal, terá um botão escrito **Resgatar Presente**. Clique nele para resgatar.
-- Após resgatar, o bot irá te enviar uma mensagem no privado (precisa estar em um discord do bot e precisa liberar a DM)
-- SUPRESA! Você recebeu seu presente, fácil né ?
+- Após resgatar, o bot irá te enviar uma mensagem no privado
+  - **Possíveis erros:**
+      - "Usuário não encontrado" - Precisa estar em um discord do bot
+      - "Houve um erro ao mandar mensagem na sua DM" - Precisa liberar a DM
+- SURPRESA! Você recebeu seu presente, fácil né ?
 
 
 # Inicialização
