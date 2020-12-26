@@ -1,6 +1,15 @@
 # ZuraaaNatal
 Este projeto foi um desafio criado pela bot list Zuraaa. @MysteryMS @Yummii @Gabriel-Paulucci @KuryKat
 
+# Funcionalidade
+- Com o seu projeto online, acesse com o domínio que você colocou na **config.json**
+- Clique no botão **LOGAR COM O DISCORD**, você será enviado para uma página de autenticação do discord. Apenas clique em Autorizar
+- Após logar, você será redirecionado para a página principal
+- Na página principal, terá um botão escrito **Resgatar Presente**. Clique nele para resgatar.
+- Após resgatar, o bot irá te enviar uma mensagem no privado (precisa estar em um discord do bot e precisa liberar a DM)
+- SUPRESA! Você recebeu seu presente, fácil né ?
+
+
 # Inicialização
 - Clone o repositório utilizando o [Git](https://git-scm.com/downloads)
 ```git
