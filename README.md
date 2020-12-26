@@ -22,4 +22,4 @@ npm install
 npm start
 ```
 
-- Pronto! Se você estiver com a configuração padrão, sua aplicação estará online no [localhost](localhost)
+- Pronto! Se você estiver com a configuração padrão, sua aplicação estará online no [localhost](http://localhost)
