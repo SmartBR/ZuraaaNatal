@@ -7,9 +7,10 @@ Este projeto foi um desafio criado pela bot list Zuraaa. @MysteryMS @Yummii @Gab
 git clone https://github.com/SmartBR/ZuraaaNatal.git
 ```
 
-- No diretório **resource** localizado na pasta principal, você irá renomear o arquivo **config.example.json** para **config.json**
+- No diretório **resource** localizado na pasta principal
+ - Renomei o arquivo **config.example.json** para **config.json**
 
 - Agora você precisa baixar as dependências
-```npm
+```rubi
 npm i
 ```
