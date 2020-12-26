@@ -6,3 +6,5 @@ Este projeto foi um desafio criado pela bot list Zuraaa. @MysteryMS @Yummii @Gab
 ```git
 git clone https://github.com/SmartBR/ZuraaaNatal.git
 ```
+
+- No diretório **resource** localizado na pasta principal, você irá renomear o arquivo **config.example.json** para **config.json**
