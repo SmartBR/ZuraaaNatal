@@ -21,3 +21,5 @@ npm install
 ```bash
 npm start
 ```
+
+- Pronto! Se você estiver com a configuração padrão, sua aplicação estará online no [localhost](localhost)
