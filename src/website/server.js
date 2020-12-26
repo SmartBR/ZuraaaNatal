@@ -31,12 +31,15 @@ app.use(new Session({
 app.use(passport.initialize())
 app.use(passport.session())
 
+app.use(express.static(path.join(__dirname, "/static")))
+
 const oauth2Router = require("./routes/oauth2")()
 app.use("/oauth2", oauth2Router)
 
 app.get("/", (req, res) => {
-    console.log(req.user)
-    res.render("index")
+    res.render("index", {
+        userSession: req.user
+    })
 })
 
 app.listen(config.port || 80, () => {
