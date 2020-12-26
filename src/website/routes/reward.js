@@ -1,18 +1,23 @@
 const router = require("express").Router()
+const config = require("../../../resource/config.json")
 const UserReward = require("../../database/model/UserReward")
 
 module.exports = (client) => {
 
     router.get("/", async (req, res) => {
-        return res.render("reward", {
-            userSession: req.user,
-        })
         if (!!(await UserReward.findById(req.user ? req.user.id : 0).exec())) return res.redirect("/")
 
         const user = client.users.cache.get(req.user.id)
 
+        
         if (user) {
-            user.send("**Presente resgatado com sucesso!**").then(() => {
+            user.send("**SURPRESA!!!!!!!!!!!!!!!!!!** Seu presente chegou, vamos ver o que é ?", {
+                files: [{
+                    attachment: config.reward,
+                    name: "SPOILER_box.png"
+                }]
+            }
+            ).then(() => {
                 res.render("reward", {
                     userSession: req.user,
                 })

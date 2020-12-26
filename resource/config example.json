@@ -1,0 +1,18 @@
+{
+    "token": "your_token",
+    "mongo_uri": "your_mongo_uri",
+  
+    "reward": "https://media.discordapp.net/attachments/785144856484773924/792467981992329256/1453230968_1_large.png?width=434&height=434",
+
+    "domain": "localhost",
+    "port": 80,
+  
+    "client": {
+      "id": "your_bot_client_id",
+      "secret":  "your_bot_client_secret"
+    },
+  
+    "oauth2": {
+      "callback": "/oauth2/callback"
+    }
+  }

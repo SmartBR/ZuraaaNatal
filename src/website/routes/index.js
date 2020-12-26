@@ -4,8 +4,6 @@ const UserReward = require("../../database/model/UserReward")
 module.exports = (client) => {
 
     router.get("/", async (req, res) => {
-        return res.redirect("/reward")
-
         res.render("index", {
             userSession: req.user,
             canReward: !(await UserReward.findById(req.user ? req.user.id : 0).exec())
