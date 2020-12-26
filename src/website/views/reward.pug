@@ -1,0 +1,13 @@
+extends ./layout/layout
+
+block head
+    title Natal - Resgatar recompensa
+    script(src="/js/reward.js")
+
+block body
+    .text-center.text-white
+        img(src="/img/gorro.png" height="420px")
+        h1.mt-2 Parabéns! Você resgatou sua recompensa com sucesso.
+        h5 Tenha um Feliz Natal!
+
+        a.mt-5.btn.btn-danger(href="/") Reiniciar
