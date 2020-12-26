@@ -18,4 +18,6 @@ npm install
 ```
 
 - Após configurar o projeto **(config.json)**, inicialize a aplicação com o seguinte comando
-  - npm start
+  - ```bash
+   npm start
+   ```
