@@ -11,4 +11,5 @@ git clone https://github.com/SmartBR/ZuraaaNatal.git
 
 - Agora você precisa baixar as dependências
 ```npm
-npm i```
+npm i
+```
