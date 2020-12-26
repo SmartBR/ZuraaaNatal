@@ -3,5 +3,6 @@ Este projeto foi um desafio criado pela bot list Zuraaa. @MysteryMS @Yummii @Gab
 
 # Inicialização
 - Clone o repositório utilizando o [Git](https://git-scm.com/downloads)
-```bash
-git clone https://github.com/SmartBR/ZuraaaNatal.git```
+```git
+git clone https://github.com/SmartBR/ZuraaaNatal.git
+```
