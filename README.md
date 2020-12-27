@@ -29,12 +29,12 @@ git clone https://github.com/SmartBR/ZuraaaNatal.git
 npm install
 ```
 
-### OAuth2
+#### OAuth2
    - A maioria das configurações do **config.json**, você encontra aqui
      - https://discord.com/developers/applications/<id_do_seu_bot>/information
    - Agora você precisa adicionar o url de callback
      - Acesse https://discord.com/developers/applications/<id_do_seu_bot>/oauth2, clique em **Add Redirect** e coloque http://<domínio>/oauth2/callback (se estiver no localhost, coloque http://localhost/oauth2/callback),
-     após isso, desça um pouco até **OAuth2 URL Generator**, selecione o url que você colocou no redirect e clique em salvar. Se você estiver 
+     após isso, desça um pouco até **OAuth2 URL Generator**, selecione o url que você colocou no redirect e clique em salvar.
      
 
 - Após configurar o projeto **(config.json)**, inicialize a aplicação com o seguinte comando
