@@ -29,7 +29,7 @@ git clone https://github.com/SmartBR/ZuraaaNatal.git
 npm install
 ```
 
-###OAuth2
+### OAuth2
    - A maioria das configurações do **config.json**, você encontra aqui
      - https://discord.com/developers/applications/<id_do_seu_bot>/information
    - Agora você precisa adicionar o url de callback
