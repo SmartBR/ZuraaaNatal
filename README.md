@@ -31,9 +31,9 @@ npm install
 
 #### OAuth2
    - A maioria das configurações do **config.json**, você encontra aqui
-     - https://discord.com/developers/applications/<id_do_seu_bot>/information
+     - ``https://discord.com/developers/applications/<id_do_seu_bot>/information``
    - Agora você precisa adicionar o url de callback
-     - Acesse https://discord.com/developers/applications/<id_do_seu_bot>/oauth2, clique em **Add Redirect** e coloque http://<domínio>/oauth2/callback (se estiver no localhost, coloque http://localhost/oauth2/callback),
+     - Acesse ``https://discord.com/developers/applications/<id_do_seu_bot>/oauth2``, clique em **Add Redirect** e coloque http://<domínio>/oauth2/callback (se estiver no localhost, coloque ``http://localhost/oauth2/callback``),
      após isso, desça um pouco até **OAuth2 URL Generator**, selecione o url que você colocou no redirect e clique em salvar.
      
 
