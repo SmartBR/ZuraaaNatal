@@ -1,5 +1,5 @@
 # ZuraaaNatal
-Este projeto foi um desafio criado pela bot list Zuraaa. @MysteryMS @Yummii @Gabriel-Paulucci @KuryKat
+Este projeto foi um desafio criado pela bot list Zuraaa.
 
 # Funcionalidade
 - Com o seu projeto online, acesse com o domínio que você colocou na **config.json**
